@@ -64,3 +64,39 @@ npm i loadsh express react axios moment
 
 node_modules/
 ```
+5. Comprobar estado del proyecto:
+```
+git status
+```
+RESULTADO
+```
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        package-lock.json
+        package.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+6. Agregar cambios y realizar el commit:
+```
+git add -A && git commit -m "loadsh express react axios y moment"
+```
+RESULTADO
+```
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+[master (root-commit) ff532ad] loadsh express react axios y moment
+ 4 files changed, 815 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+```
